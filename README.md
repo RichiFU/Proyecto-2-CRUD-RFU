@@ -24,3 +24,13 @@ Este proyecto tiene como funcion gestionar la información de autos utilizando H
 4. La tabla mostrará la lista de autos agregados. Desde aquí, se puede:
     - Editar los detalles de un auto haciendo clic en el botón "Editar Auto".
     - Eliminar un auto de la lista haciendo clic en el botón "Eliminar Auto".
+
+## Tecnologías Utilizadas
+
+- HTML
+- CSS (con Bootstrap para estilos)
+- JavaScript
+
+## Licencia
+
+Este proyecto fue desarrollado por Ricardo Fuentes, Alias (RichiFu)
