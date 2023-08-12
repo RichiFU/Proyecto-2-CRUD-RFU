@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/auto.jpg);
+    padding: 20px 0;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* se oculta el boton update */
+#btnUpdate {
+    display: none;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.logo {
+    background-image: url(../images/logoCRUD.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    width: 100px;
+    height: auto;
+}
+
+.navbar-btn {
+    display: none;
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 40px;
+    font-size: 26px;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Cambiar color al pasar el mouse */
+.navbar-menu li a:hover {
+    color: #ffca28;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-label {
+    font-weight: bold;
+}
+
+
+.btn {
+    margin-left: 10px;
+
+}
+
+
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.text-center {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+
+.table thead th {
+    background-color: #343a40;
+    color: white;
+}
+
+
+.table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.mb-3 {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+
+.footer-content{
+    margin-top: 50px;
+    background-color: #010000da;
+    padding: 10px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* navbar responsivo */
+@media screen and (max-width: 760px) {
+    .navbar-container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar-btn {
+        display: block;
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #444;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+    }
+
+    .navbar-menu.active {
+        display: block;
+    }
+
+    .navbar-menu li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .navbar-menu li a {
+        display: block;
+        padding: 10px;
+    }
+}
