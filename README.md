@@ -11,7 +11,7 @@ Este proyecto tiene como funcion gestionar la información de autos utilizando H
 
 ## Uso
 
-1. Abre la pagina web para acceder a la interfaz del CRUD de Autos.
+1. Abre la pagina web: https://richifu.github.io/Proyecto-2-CRUD-RFU/ , para acceder a la interfaz del CRUD de Autos.
 
 2. Llena los campos de "Marca", "Modelo" y "Año" para agregar un nuevo auto a la lista. Se debe cumplir con las siguientes reglas:
     - Los campos no deben estar vacios.
