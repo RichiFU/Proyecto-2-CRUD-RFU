@@ -40,6 +40,11 @@ const validateForm = () => {
         return false;
     }
 
+    if (año < 1980 || año > 2023) {
+        alert('El año debe estar entre 1980 y 2023');
+        return false;
+    }
+
     return true;
 };
 
