@@ -60,7 +60,7 @@ const showData = () => {
         html += "<td>" + element.marca + "</td>";
         html += "<td>" + element.modelo + "</td>";
         html += "<td>" + element.año + "</td>";
-        html += `<td><button onclick="deleteData(${index})" class="btn btn-danger">Eliminar Dato</button> <button onclick="updateData(${index})" class="btn btn-warning">Editar Dato</button></td>`;
+        html += `<td><button onclick="deleteData(${index})" class="btn btn-danger">Eliminar Auto</button> <button onclick="updateData(${index})" class="btn btn-warning">Editar Auto</button></td>`;
         html += "</tr>";
     });
 
